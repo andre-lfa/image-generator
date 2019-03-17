@@ -7,7 +7,10 @@ void main() {
         title: Text("Let's see some images!"),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: null,
+        child: Icon(Icons.add),
+        onPressed: () {
+          print('Hi there');
+        },
       ),
     ),
   );
